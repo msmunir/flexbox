@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: rgb(250, 247, 247);
+} */
+
+/* ################################# Designing header part of the Body ##################### */
+.parentOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 5em;
+    width: 100%;
+    /* margin: 20px ; */
+    margin-left: 20px;
+    background-color: gray;
+}
+.lightblue{
+    display: flex;
+    height: 60px;
+    width: 160px;
+    border: 1px solid black;
+    background-color: rgb(50, 81, 174);
+    margin-top: 10px;
+}
+.lightblue.one{
+   align-items: center;
+   justify-content: space-around;
+}
+.lightblue.two{
+    justify-content: space-around;
+    align-items: center;
+}
+.lightblue.three{
+   align-items: center;
+   justify-content: space-around;
+}
+.purple{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    background-color: rgb(237, 60, 237);
+    flex-direction: row;
+}
+
+/* ################################# Designing middle part of the Body ##################### */
+
+.bodyMiddle{
+    display: flex;
+    margin: 20px 20px 0 20px;
+    /* flex-direction: row; */
+}
+.bodyStart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 70%;
+    background-color: gray;
+    margin-right: 20px;
+}
+.red{
+    display: flex;
+    background-color: firebrick;
+    margin: 20px 20px;
+}
+.red.one{
+    height: 440px;
+    width: 360px;
+    padding: 20px 20px;
+    /* order:0; */
+}
+.azure{
+    height: 55px;
+    width: 220px;
+    background-color: azure;
+    margin: 20px 0;
+}
+.aqua{
+    height: 55px;
+    width: 60px;
+    background-color: aqua;
+    margin: 20px 20px;
+    /* margin: 20px 30px 20px 0; */
+}
+.red.two{
+    height: 200px;
+    width: 300px;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.gold{
+    height: 60px;
+    width: 60px;
+    background-color: goldenrod;
+    margin: 5px;
+}
+.gold.two {
+    align-self: flex-end;
+}
+
+.red.three{
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.beige{
+    height: 60px;
+    width: 60px;
+    background-color:beige;
+    /* margin-left:5px; */
+}
+.blue{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    align-self: flex-end;
+    /* margin-bottom: 35px; */
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* ################################# Designing side part of the Body ##################### */
+.bodyAside{
+    min-width: 30%;
+    min-height: 500px;
+    background-color: gray;
+    border: 1px solid black;
+    /* margin-left: 10px; */
+}
+.wraperTwo{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+.green{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: darkgreen;
+    margin: 20px;
+}
+.green.two{
+    height: 300px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: darkgreen;
+    margin-right: 50px;
+}
+/* ################################# Designing footer part of the Body ##################### */
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color: lightseagreen;
+    text-align: center;
+    color: whitesmoke;
+    padding:10px 0;
+}
